@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "KANGO~" + string_session;
+                        let md = "XENOCRYPT~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there KANGO-XMD User! 👋🏻* 
+                        let desc = `*Hello there XENOCRYPT XD User! 👋🏻* 
 
-> Do not share your session id with your gf 😂.
+> Do not share your session id with anyone.
 
- *Thanks for using KANGO-XMD 🚩* 
+ *Thanks for using XENOCRYPT XD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/OfficialKango/KANGO-XMD
+https://github.com/darkdev-tech/monitor
 
-> *© Powered BY Hector Manuel 🖤*`; 
+> *© Powered BY DARK TECH 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Hector Manuel",
-thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+title: "XENOCRYPT XD",
+thumbnailUrl: "https://i.ibb.co/7JQHrQ3n/IMG-20250424-WA0040.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -112,9 +112,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "KANGO-XMD",
-thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+title: "XENOCRYPT XD",
+thumbnailUrl: "https://i.ibb.co/7JQHrQ3n/IMG-20250424-WA0040.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
